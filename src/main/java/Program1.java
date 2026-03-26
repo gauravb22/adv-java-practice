@@ -7,7 +7,7 @@ public class Program1 {
     private static final String DB_URL ="jdbc:mysql://localhost:3306/advjdb";
     private static final String DB_NAME ="root";
     private static final String DB_PWD ="admin123";
-    private static final String INSERT_SQL="INSERT INTO BOOKS VALUES(102,'Python',12000 )";
+    private static final String INSERT_SQL="INSERT INTO BOOKS VALUES(102,'Python',12000)";
 
     public static void main(String[]Args)throws  Exception{
         Class.forName("com.mysql.cj.jdbc.Driver");
