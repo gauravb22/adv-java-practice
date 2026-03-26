@@ -16,6 +16,7 @@ public class Program3 {
         Connection con = DriverManager.getConnection(DB_URL, DB_UNAME, DB_PWD);
 
         Statement stmt = con.createStatement();
+
         ResultSet rs = stmt.executeQuery(SELECT_SQL);
 
         while (rs.next()) {
