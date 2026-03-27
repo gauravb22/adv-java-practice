@@ -1,4 +1,7 @@
-import com.mysql.cj.ServerPreparedQueryTestcaseGenerator;
+/*Program to Develop  Jdbc application to retrive books which are having price less then given price.
+* Asks User to enter the price in keyword, if user entered the price then we have to fetch books
+* which are having price less then user given price and display to console.
+* If user don't enter price then fetch all the books and display to console.*/
 
 import java.sql.*;
 import java.util.Scanner;
