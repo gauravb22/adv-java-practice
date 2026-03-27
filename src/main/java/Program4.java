@@ -1,6 +1,5 @@
 //Fetch id, name, price from BOOKS table By Using ResulSet
 
-import com.mysql.cj.protocol.Resultset;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
