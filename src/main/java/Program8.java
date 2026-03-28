@@ -1,6 +1,6 @@
-//Program to Develop JDBC application to increase salary of all Employees.
-//Read Hike Percentage from keyword and update salary with given percentage
-//BY Using SQL QUERY
+/*Program to Develop JDBC application to increase salary of all Employees.
+Read Hike Percentage from keyword and update salary with given percentage
+BY Using SQL QUERY.*/
 
 import java.sql.Connection;
 import java.sql.DriverManager;
